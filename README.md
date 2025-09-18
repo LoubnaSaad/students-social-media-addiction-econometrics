@@ -1,10 +1,10 @@
 # Students' Social Media Addiction: Econometrics Analysis
 
 ## Overview
-Explored a dataset on student social media habits (~XX rows post-cleaning) to model impacts on daily usage, sleep, and mental health. Removed outliers (e.g., extreme usage hrs), ran descriptives, and built LMs testing interactions (e.g., Mental_Health * Conflicts) and piecewise effects (breakpoints at age=20, usage=3 hrs).
+Explored a dataset on student social media habits to model impacts on daily usage, sleep, and mental health. Removed outliers (e.g., extreme usage hrs), ran descriptives, and built LMs testing interactions (e.g., Mental_Health * Conflicts) and piecewise effects (breakpoints at age=20, usage=3 hrs).
 
 ## Skills Demonstrated
-- Cleaning: Boxplot-based outlier removal (e.g., ~X rows dropped on Avg_Daily_Usage_Hours), factor conversions.
+- Cleaning: Boxplot-based outlier removal (e.g., ~some  rows dropped on Avg_Daily_Usage_Hours), factor conversions.
 - EDA: Freq/prop tables, mosaic plots (vcd for Gender/Relationship/Addiction associations), desc stats (mean/median/SD via summarise).
 - Modeling: LM baselines, interaction terms (*), nested F-tests/AIC/BIC for selection; piecewise (segmented pkg for non-linear Age/Usage/Conflicts).
 - Diagnostics: Plots (par mfrow), Cook's D/dfbetas for influencers, Shapiro for residuals.
@@ -12,7 +12,7 @@ Explored a dataset on student social media habits (~XX rows post-cleaning) to mo
 ## Key Findings
 - Descriptives: Avg usage ~3.2 hrs (SD=1.1); 55% female, High addiction score in 30%.
 - Interactions: Mental_Health * Conflicts significant (p<0.05, higher conflicts amplify low mental health effects on usage).
-- Piecewise: Sleep drops sharply post-usage=3 hrs (slope change -0.XX); Age breakpoint ~20 (younger less affected by gender).
+- Piecewise: Sleep drops sharply post-usage=3 hrs (slope change ); Age breakpoint ~20 (younger less affected by gender).
 - Model Fit: Nested F-test favors interactions (p<0.01); AIC lower for piecewise vs. linear.
 
 ## Files
