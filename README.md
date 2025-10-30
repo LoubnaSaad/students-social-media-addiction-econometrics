@@ -6,7 +6,7 @@ Explored a dataset on student social media habits to model impacts on daily usag
 ## Skills Demonstrated
 - Cleaning: Boxplot-based outlier removal (e.g., ~some  rows dropped on Avg_Daily_Usage_Hours), factor conversions.
 - EDA: Freq/prop tables, mosaic plots (vcd for Gender/Relationship/Addiction associations), desc stats (mean/median/SD via summarise).
-- Modeling: LM baselines, interaction terms (*), nested F-tests/AIC/BIC for selection; piecewise (segmented pkg for non-linear Age/Usage/Conflicts).
+- Modeling: LM baselines, interaction terms, nested F-tests/AIC/BIC for selection; piecewise (segmented pkg for non-linear Age/Usage/Conflicts).
 - Diagnostics: Plots (par mfrow), Cook's D/dfbetas for influencers, Shapiro for residuals.
 
 ## Key Findings
